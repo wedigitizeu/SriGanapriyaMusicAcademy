@@ -1,1 +1,1 @@
-# Sri-Ganapriya-Music-Academy
+# SriGanapriyaMusicAcademy
