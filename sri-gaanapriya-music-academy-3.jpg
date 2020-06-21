@@ -1,0 +1,24 @@
+<?php
+
+
+$dir = "gallery/";
+
+// Open a directory, and read its contents
+
+   $dh = opendir($dir);
+  
+    $i=0;
+    while (($file = readdir($dh)) !== false)
+    {
+      
+      echo $file."<br>";
+      
+      $i=$i+1;
+      $f="sri-gaanapriya-music-academy-$i.jpg";
+      rename($file,$f);
+      
+    }
+    closedir($dh);
+  
+
+?>
